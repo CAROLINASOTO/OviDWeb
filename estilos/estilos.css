@@ -26,7 +26,16 @@ body{
   margin-top: 20px;
   /*position:relative;*/
 }
-
+#contenedor1{
+  background: #FFFFFF;/*no tiene nada*/fucsia
+  height: 700px;
+  width:1050px;/*aca coloco la medida del contenedor*/
+  margin-right: auto;
+  margin-left: auto;
+  /*float: left;*/
+  margin-top: 20px;
+  /*position:relative;*/
+}
 
 header,#banner,#contador{
 	background:#005883;
@@ -86,6 +95,7 @@ section {
   margin-left: 20px;
   margin-right: : 20px;
 }
+
 
 .menu  {
     border-radius: 5px;
@@ -224,8 +234,8 @@ margin-top: 10px;
 }
 #equipotrabajo{
   width: 1010px;
-  height: 70px;
-  background: #F2EE18;
+  height: 80px;
+  background: #FFFFFF;
 }
 div#general,{
   margin: auto;
@@ -240,7 +250,7 @@ div#general,{
   width:280px;
   height:280px;
   border-radius:140px;
-  margin-top: 20px
+  margin-top: 60px
 }
 
 
@@ -249,7 +259,7 @@ div#general,{
   width:280px;
   height:280px;
   border-radius:140px;
-  margin-top: 20px
+  margin-top: 60px
 
 }
 /*div#Carolina{
@@ -266,18 +276,18 @@ div#general,{
   width:280px;
   height:280px;
   border-radius:140px;
-  margin-top: 20px
+  margin-top: 60px
 
 }
 
-/*--------esto es para las tres columnas-----------------------------------------------------*/
+/*--------esto es para las tres columnas de la pagina autores-------------*/
 
 
   #main1 {
     margin:0; padding:0;
-    background:#FCA905;
+    background:#FFFFFF;
     width: 1010px;
-    height: 650px;
+    height: 600px;
     }
   #main2 {
     margin:0; padding:0;
@@ -289,10 +299,13 @@ div#general,{
     width:336px;
     height: 600px;
     margin:0; padding:0;
-    background:#05FCCE;
+    background:#FFFFFF;
     font-size:80%;
     text-align: center;
-    margin-top: 
+    color: #005883;
+    font-family: 'Angsana New';
+    font-size: 24px;
+    font-weight: bold;
     }
   #right {
    
@@ -300,16 +313,27 @@ div#general,{
     width:336px;
     height: 600px;
     margin:0; padding:0;
-    background:#CE05FC;
+    background:#FFFFFF;
     font-size:80%;
     text-align: center;
+    color: #005883;
+    font-family: 'Angsana New';
+    font-size: 25px;
+    font-weight: bold;
     }
   #middle {
     margin:0 336px;
-    background:#FC0515;
-    font-size:80%;
+    background:#FFFFFF;
     height: 600px;
+    text-align: center;
+    color: #005883;
+    font-family: 'Angsana New';
+    font-size: 25px;
+    font-weight: bold;
     }
   .column-in {
     margin:0; padding:0.5em 1em;
     }
+#parrafoaida,#parrafoeduard,#parrafocarolina{
+  margin-top: 30px;
+}
