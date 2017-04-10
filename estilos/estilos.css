@@ -82,7 +82,7 @@ section {
 	background: #FFFFFF;/*verde limon*/
 	height:700px;
   float: left;
-  margin-top:20px;
+  /*margin-top:20px;*/
   margin-left: 20px;
   margin-right: : 20px;
 }
@@ -220,6 +220,96 @@ a.sinlinea:hover
 } 
 #visitador{
 margin-top: 10px;
-}
 
 }
+#equipotrabajo{
+  width: 1010px;
+  height: 70px;
+  background: #F2EE18;
+}
+div#general,{
+  margin: auto;
+  width: 1010px;
+  height: 500px;
+  background-color: #F21835;
+  text-align: center;
+  margin-top: 20px
+}
+.fotoeduard{
+  margin-left:10px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 20px
+}
+
+
+.fotoaida{
+  margin-left:20px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 20px
+
+}
+/*div#Carolina{
+   margin-left:20px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 20px
+
+}*/
+
+.fotocarolina{
+  margin-left:10px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 20px
+
+}
+
+/*--------esto es para las tres columnas-----------------------------------------------------*/
+
+
+  #main1 {
+    margin:0; padding:0;
+    background:#FCA905;
+    width: 1010px;
+    height: 650px;
+    }
+  #main2 {
+    margin:0; padding:0;
+    background:#000;
+  }
+  #left {
+
+    float:left;
+    width:336px;
+    height: 600px;
+    margin:0; padding:0;
+    background:#05FCCE;
+    font-size:80%;
+    text-align: center;
+    margin-top: 
+    }
+  #right {
+   
+    float:right;
+    width:336px;
+    height: 600px;
+    margin:0; padding:0;
+    background:#CE05FC;
+    font-size:80%;
+    text-align: center;
+    }
+  #middle {
+    margin:0 336px;
+    background:#FC0515;
+    font-size:80%;
+    height: 600px;
+    }
+  .column-in {
+    margin:0; padding:0.5em 1em;
+    }
