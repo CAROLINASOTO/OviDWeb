@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html  lang = "es">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Diseño Ovi">
+	<meta name="descripction" content="Diseño Ovi UNAD 2017 Diseño Web">
+	<title>Diseño Ovi 2017 UNAD</title>
+
+<style type="text/css">
+<!--
+@import url("estilos/estilos.css");
+.Estilo1 {color: #FFFFFF}
+-->
+    </style>
+</head>
+<body background="imagenes/backindex.png">
+
+<div id="contenedor">
+
+
+	<header>
+		<img  src="imagenes/cabeza.png" width="1050" height="221">
+
+	</header>
+
+	
+
+		<nav id="banner">
+
+
+
+
+		<ul class="menu">
+			<center>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="queesccs.html">Que es CSS</a></li>
+			<li><a href="#Funciomamiento Básico"> Funcionamiento</a></li>
+		  <li><a href="#Propiedades">Propiedades</a>
+				<ul>
+					<li><a href="#Propiedadfloat">Float</a></li>
+					<li><a href="#Propiedadposition">Position</a></li>
+					<li><a href="#propiedadoverflow">Overflow</a></li>
+				</ul>
+			</li>
+			<li><a href="#Estilos">Estilos</a></li>
+		  <li><a href="#Multimedia">Multimedia</a>
+				<ul>
+					<li><a href="#CSS">Que es CSS?</a></li>
+					<li><a href="#Propiedades">Propiedades</a></li>
+					<li><a href="#Cestilos">Estilos</a></li>
+				</ul>
+			</li>
+		  <li><a href="#Actividades">Actividades</a>
+				<ul>
+					<li><a href="#Actividad1">Actividad 1</a></li>
+					<li><a href="#Actividad2">Actividad 2</a></li>
+					<li><a href="#Actividad3">Actividad 3</a></li>
+					<li><a href="#Actividad4">Actividad 4</a></li>
+					<li><a href="#Actividad5">Actividad 5</a></li>
+					<li><a href="#Actividad6">Actividad 6</a></li>
+				</ul>
+			</li>
+		  </center>
+		
+		</ul>
+		</nav>                                               
+	
+	<section >
+	  <article>
+		  <h2><strong>Soporte de Css en los Navegadores</strong></h2>
+	      <span class="parrafot">El trabajo del diseñador web siempre  está limitado por las posibilidades de los navegadores que utilizan los  usuarios para acceder a sus páginas. Por este motivo es imprescindible conocer  el soporte de CSS en cada uno de los navegadores más utilizados del mercado.<br>
+        Internamente los navegadores están  divididos en varios componentes. La parte del navegador que se encarga de  interpretar el código HTML y CSS para mostrar las páginas se denomina motor.  Desde el punto de vista del diseñador CSS, la versión de un motor es mucho más  importante que la versión del propio navegador.<br>
+        La siguiente tabla muestra el soporte de  CSS 1, CSS 2.1 y CSS 3 de los cinco navegadores más utilizados por los  usuarios:
+        </h1>
+	      </span>
+        <table border="1" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="99"><br>
+                <strong>Navegador</strong> </td>
+            <td width="67"><p><strong>Motor</strong></p></td>
+            <td width="135"><p><strong>CSS 1</strong></p></td>
+            <td width="79"><p><strong>CSS 2.1</strong></p></td>
+            <td width="225"><p><strong>CSS 3</strong></p></td>
+          </tr>
+          <tr>
+            <td width="99"><p>Google Chrome</p></td>
+            <td width="67"><p>WebKit</p></td>
+            <td width="135"><p>Completo desde    la versión 85 del motor</p></td>
+            <td width="79"><p>Completo</p></td>
+            <td width="225"><p>Todos los    selectores, pseudo-clases y muchas propiedades</p></td>
+          </tr>
+          <tr>
+            <td width="99"><p>Internet    Explorer</p></td>
+            <td width="67"><p>Trident</p></td>
+            <td width="135"><p>Completo desde    la versión 7.0 del navegador</p></td>
+            <td width="79"><p>Completo</p></td>
+            <td width="225"><p>Todos los    selectores, pseudo-clases y muchas propiedades a partir de la versión 10.0    del navegador</p></td>
+          </tr>
+          <tr>
+            <td width="99"><p>Firefox</p></td>
+            <td width="67"><p>Gecko</p></td>
+            <td width="135"><p>Completo desde    la versión 1.0 del navegador</p></td>
+            <td width="79"><p>Completo</p></td>
+            <td width="225"><p>Todos los    selectores, pseudo-clases y muchas propiedades</p></td>
+          </tr>
+          <tr>
+            <td width="99"><p>Safari</p></td>
+            <td width="67"><p>WebKit</p></td>
+            <td width="135"><p>Completo desde    la versión 85 del motor</p></td>
+            <td width="79"><p>Completo</p></td>
+            <td width="225"><p>Todos los    selectores, pseudo-clases y muchas propiedades</p></td>
+          </tr>
+          <tr>
+            <td width="99"><p>Opera</p></td>
+            <td width="67"><p>Presto</p></td>
+            <td width="135"><p>Completo desde    la versión 1.0 del navegador</p></td>
+            <td width="79"><p>Completo</p></td>
+            <td width="225"><p>Todos los    selectores, pseudo-clases y muchas propiedades</p></td>
+          </tr>
+        </table>
+	    <p class="parrafot">Los navegadores Firefox, Chrome, Safari  y Opera son los más avanzados en el soporte de CSS, ya que incluyen muchos  elementos de la futura versión CSS 3 y un soporte casi perfecto de la actual  version 2.1.<br>
+        Por su parte, el navegador Internet  Explorer sólo puede considerarse adecuado desde el punto de vista de CSS a  partir de su versión 7. Internet Explorer 6, utilizado todavía por un número no  despreciable de usuarios, sufre carencias muy importantes y contiene decenas de  errores en su soporte de CSS. Internet Explorer 8 soporta casi todas las  propiedades y características de CSS. La tabla anterior ha sido  elaborada a partir de la información que se puede encontrar en la página&nbsp;<a href="http://en.wikipedia.org/wiki/Comparison_of_layout_engines_(Cascading_Style_Sheets)"><em>Comparison of layout engines</em></a>&nbsp;de la Wikipedia, donde se  muestra una comparación exhaustiva sobre el soporte de todas las  características de CSS por parte de cada navegador. . </p>
+	    <p class="parrafot">&nbsp;</p>
+	  </article>
+</section>
+
+  <aside>
+
+	<div align="center" class="imgeduardcss" id="img" >
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p><img src="imagenes/navegadores.jpg" alt="" width="236" height="213">
+	    <noscript>
+                      </noscript>
+        </p>
+	</div>
+<div align="center" class="vinculoinferiorizq" id="vinculos2">
+<a href="3CCS.html" class="Estilo1"> Siguiente   █ █ █ </a>
+<a href="queesccs.html" class="Estilo1"> Atrás  </a></div>
+
+  </aside>
+
+	<footer>
+			<div class="footer-left">
+			<a href="https://www.unad.edu.co/">
+				<img  src="imagenes/logoUNADgrisInferior.png">			</a>			</div>
+	        <div class="texto" > 
+	        <a href="autores.html" class="sinlinea">Autores: Grupo 301122-37 - CURSO DISEÑO DE SITIOS WEB.</a>	        </div>
+	</footer>	
+	
+</div>
+
+</body>
+<script type="js/modernizr.js"></script>
+<script type="js/prefixfree.min.js"></script>
+<script type="js/jquery-3.2.0.js"></script>
+
+
+</html>
