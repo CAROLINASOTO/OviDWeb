@@ -347,3 +347,19 @@ div#general,{
 #parrafoaida,#parrafoeduard,#parrafocarolina{
   margin-top: 30px;
 }
+/*--------esto es para las imagenes de la derecha de que es css------*/
+
+.imgeduardcss{
+  margin-left:10px;
+  width:280px;
+  height:480px;
+  border-radius:140px;
+  margin-top: 60px
+}
+
+.vinculoinferiorizq{
+background:#005883;
+margin-top:60px;
+width:180px;
+height:30px;
+}
