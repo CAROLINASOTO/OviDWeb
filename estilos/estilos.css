@@ -17,7 +17,7 @@ body{
   background-size: cover;
 }
 #contenedor{
-	background: #FF00FF;/*no tiene nada*/fucsia
+	background: #FFFFFF;/*no tiene nada*/fucsia
 	height: 700px;
 	width:1050px;/*aca coloco la medida del contenedor*/
 	margin-right: auto;
@@ -97,7 +97,7 @@ footer{
 
 }
 section {
-  width: 1010px;
+  width: 700px;
 	background: #FFFFFF;/*verde limon*/
 	height:700px;
   float: left;
