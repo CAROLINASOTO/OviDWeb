@@ -240,8 +240,10 @@ a.sinlinea:hover
 } 
 #visitador{
 margin-top: 10px;
+margin-bottom: 20px;
 
 }
+
 #equipotrabajo{
   width: 1010px;
   height: 80px;
@@ -303,12 +305,6 @@ div#general,{
     margin:0; padding:0;
     background:#000;
   }
-  #titulofloat{
-    font-family: 'Angsana New';
-    font-size: 34px;
-    font-weight: bold;
-    }
-  }
   #left {
 
     float:left;
@@ -369,7 +365,8 @@ margin-top:60px;
 width:180px;
 height:30px;
 }
-#imgfloat{
-display:block;
-margin:0 auto 0 auto;
+#twitter-timeline{
+
+  margin-top: 10px;
+  margin-left: 20px;
 }
