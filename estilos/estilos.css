@@ -17,7 +17,7 @@ body{
   background-size: cover;
 }
 #contenedor{
-	background: #FFFFFF;/*no tiene nada*/fucsia
+	background: #FF00FF;/*no tiene nada*/fucsia
 	height: 700px;
 	width:1050px;/*aca coloco la medida del contenedor*/
 	margin-right: auto;
@@ -97,7 +97,7 @@ footer{
 
 }
 section {
-  width: 700px;
+  width: 1010px;
 	background: #FFFFFF;/*verde limon*/
 	height:700px;
   float: left;
@@ -303,6 +303,12 @@ div#general,{
     margin:0; padding:0;
     background:#000;
   }
+  #titulofloat{
+    font-family: 'Angsana New';
+    font-size: 34px;
+    font-weight: bold;
+    }
+  }
   #left {
 
     float:left;
@@ -362,4 +368,8 @@ background:#005883;
 margin-top:60px;
 width:180px;
 height:30px;
+}
+#imgfloat{
+display:block;
+margin:0 auto 0 auto;
 }
