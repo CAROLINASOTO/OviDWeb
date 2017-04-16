@@ -26,7 +26,16 @@ body{
   margin-top: 20px;
   /*position:relative;*/
 }
-
+#contenedor1{
+  background: #FFFFFF;/*no tiene nada*/fucsia
+  height: 700px;
+  width:1050px;/*aca coloco la medida del contenedor*/
+  margin-right: auto;
+  margin-left: auto;
+  /*float: left;*/
+  margin-top: 20px;
+  /*position:relative;*/
+}
 
 header,#banner,#contador{
 	background:#005883;
@@ -74,6 +83,16 @@ footer{
   font-weight: bold;
   margin-top: 10px;
   margin-right: 20px;
+}
+.parrafot {
+
+  float: right;
+  color: #000000;
+  font-family: "Times New Roman", Georgia, Serif;;
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-right: 20px;
 
 
 }
@@ -82,10 +101,11 @@ section {
 	background: #FFFFFF;/*verde limon*/
 	height:700px;
   float: left;
-  margin-top:20px;
+  /*margin-top:20px;*/
   margin-left: 20px;
   margin-right: : 20px;
 }
+
 
 .menu  {
     border-radius: 5px;
@@ -201,7 +221,7 @@ h2{
 color: #005883;
 font-family: 'Angsana New';
 text-align: center;
-font-size: 60px;
+font-size: 40px;
 font-weight: bold;
 margin-top: 10px;
 margin-right: 20px;
@@ -220,6 +240,133 @@ a.sinlinea:hover
 } 
 #visitador{
 margin-top: 10px;
+margin-bottom: 20px;
+
 }
 
+#equipotrabajo{
+  width: 1010px;
+  height: 80px;
+  background: #FFFFFF;
+}
+div#general,{
+  margin: auto;
+  width: 1010px;
+  height: 500px;
+  background-color: #F21835;
+  text-align: center;
+  margin-top: 20px
+}
+.fotoeduard{
+  margin-left:10px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 60px
+}
+
+
+.fotoaida{
+  margin-left:20px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 60px
+
+}
+/*div#Carolina{
+   margin-left:20px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 20px
+
+}*/
+
+.fotocarolina{
+  margin-left:10px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
+  margin-top: 60px
+
+}
+
+/*--------esto es para las tres columnas de la pagina autores-------------*/
+
+
+  #main1 {
+    margin:0; padding:0;
+    background:#FFFFFF;
+    width: 1010px;
+    height: 600px;
+    }
+  #main2 {
+    margin:0; padding:0;
+    background:#000;
+  }
+  #left {
+
+    float:left;
+    width:336px;
+    height: 600px;
+    margin:0; padding:0;
+    background:#FFFFFF;
+    font-size:80%;
+    text-align: center;
+    color: #005883;
+    font-family: 'Angsana New';
+    font-size: 24px;
+    font-weight: bold;
+    }
+  #right {
+   
+    float:right;
+    width:336px;
+    height: 600px;
+    margin:0; padding:0;
+    background:#FFFFFF;
+    font-size:80%;
+    text-align: center;
+    color: #005883;
+    font-family: 'Angsana New';
+    font-size: 25px;
+    font-weight: bold;
+    }
+  #middle {
+    margin:0 336px;
+    background:#FFFFFF;
+    height: 600px;
+    text-align: center;
+    color: #005883;
+    font-family: 'Angsana New';
+    font-size: 25px;
+    font-weight: bold;
+    }
+  .column-in {
+    margin:0; padding:0.5em 1em;
+    }
+#parrafoaida,#parrafoeduard,#parrafocarolina{
+  margin-top: 30px;
+}
+/*--------esto es para las imagenes de la derecha de que es css------*/
+
+.imgeduardcss{
+  margin-left:10px;
+  width:280px;
+  height:480px;
+  border-radius:140px;
+  margin-top: 60px
+}
+
+.vinculoinferiorizq{
+background:#005883;
+margin-top:60px;
+width:180px;
+height:30px;
+}
+#twitter-timeline{
+
+  margin-top: 10px;
+  margin-left: 20px;
 }
