@@ -36,6 +36,17 @@ body{
   margin-top: 20px;
   /*position:relative;*/
 }
+#contenedor2{
+  background: #FFFFFF;/*no tiene nada*/fucsia
+  height: 700px;
+  width:1050px;/*aca coloco la medida del contenedor*/
+  margin-right: auto;
+  margin-left: auto;
+  /*float: left;*/
+  margin-top: 20px;
+  text-align: center;
+  /*position:relative;*/
+}
 
 header,#banner,#contador{
 	background:#005883;
@@ -66,6 +77,26 @@ footer{
   margin-left: auto;
   /*float: left;*/
   margin-top: 750px;
+  position:relative;
+}
+#positioncomplete{
+  background: #000;/*negro*/
+  width: 1050px;
+  height: 50px; 
+  margin-right: auto;
+  margin-left: auto;
+  /*float: left;*/
+  margin-top: 2500px;
+  position:relative;
+}
+#overflowcomplete{
+  background: #000;/*negro*/
+  width: 1050px;
+  height: 50px; 
+  margin-right: auto;
+  margin-left: auto;
+  /*float: left;*/
+  margin-top: 1550px;
   position:relative;
 }
 .footer-left{
@@ -105,7 +136,24 @@ section {
   margin-left: 20px;
   margin-right: : 20px;
 }
-
+#propiedadposition {
+  width: 1000px;
+  background: #FFFFFF;/*verde limon*/
+  height:2450px;
+  float: left;
+  /*margin-top:20px;*/
+  margin-left: 20px;
+  margin-right: : 20px;
+}
+#propiedadoverflow {
+  width: 1000px;
+  background: #FFFFFF;/*verde limon*/
+  height:1450px;
+  float: left;
+  /*margin-top:20px;*/
+  margin-left: 20px;
+  margin-right: : 20px;
+}
 
 .menu  {
     border-radius: 5px;
@@ -240,8 +288,10 @@ a.sinlinea:hover
 } 
 #visitador{
 margin-top: 10px;
+margin-bottom: 20px;
 
 }
+
 #equipotrabajo{
   width: 1010px;
   height: 80px;
@@ -362,4 +412,9 @@ background:#005883;
 margin-top:60px;
 width:180px;
 height:30px;
+}
+#twitter-timeline{
+
+  margin-top: 10px;
+  margin-left: 20px;
 }
