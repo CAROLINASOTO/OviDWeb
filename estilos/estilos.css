@@ -145,6 +145,15 @@ section {
   margin-left: 20px;
   margin-right: : 20px;
 }
+#videocss1 {
+  width: 1000px;
+  background: #FFFFFF;/*verde limon*/
+  height:700px;
+  float: left;
+  /*margin-top:20px;*/
+  margin-left: 20px;
+  margin-right: : 20px;
+}
 #propiedadoverflow {
   width: 1000px;
   background: #FFFFFF;/*verde limon*/
@@ -417,4 +426,7 @@ height:30px;
 
   margin-top: 10px;
   margin-left: 20px;
+}
+#videos{
+  text-align: center;
 }
